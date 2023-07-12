@@ -9,8 +9,6 @@
     background-color: var(--body-bg-color);
     width: calc(100vw - 1rem);
     overflow-x: hidden;
-
-
     font-family: Merriweather Sans; 
     color: var(--text-color);
   }
@@ -26,14 +24,12 @@
     border-radius: 1.25rem;
     box-shadow: 0 0.155rem 0.155rem black;
     width: 100%;
-    /* height: 18.25rem; */
   }
 
   .caixafundo2 {
     padding: 10px 0;
     background-color: var(--bg-cards);
     display: flex;
-    /* margin: 2.5rem 2.5rem 0 3.75rem ; */
     border-radius: 20px;
     box-shadow: 1px 1px 3px black;
     min-width: 348px;
@@ -118,7 +114,6 @@
 
   .container-tec{
     color: var(--text-color);
-    /* height: 13rem; */
     font-weight:700;
     display: flex;
     flex-direction: column;
@@ -133,13 +128,9 @@
   .container-tec-lista{
     display: flex;
     flex-wrap: wrap;
-    /* margin: 0 auto;
-    width: 18.75rem; */
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 1.5rem;
-    /* justify-content: space-evenly; */
-    
+    margin-bottom: 1.5rem;  
   }
 
   .container-tec-li{
@@ -148,7 +139,6 @@
     display: flex;
     width: 5.375rem;
     height: 1.5rem;
-    /* margin: 0.5rem 0; */
     border-radius: 1.875rem;
     justify-content: center;
     align-items: center;
@@ -164,7 +154,6 @@
   .container-exp{
     display: flex;
     flex-direction: column;
-    /* height: 19rem; */
 
   }
   .container-educa{
@@ -307,16 +296,16 @@
   gap: 0.6rem
 }
 .container-post-titulo{
-font-size: 1.125rem;
-font-weight: 700;
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 .container-post-txt1{
-font-size: 0.875rem;
-font-weight: 400;
+  font-size: 0.875rem;
+  font-weight: 400;
 }
 .container-post-txt2{
-font-size: 1rem;
-font-weight: 400;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .container-post-lista{
   font-size: 0.875rem;
